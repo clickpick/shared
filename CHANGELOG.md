@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.3](https://github.com/clickpick/shared/compare/v0.1.2...v0.1.3) (2021-09-10)
+
+
+### Features
+
+* createContextComponent ([52d6de4](https://github.com/clickpick/shared/commit/52d6de4f11ca3ad30646d2ef96fe1602978e56cc))
+
 ### [0.1.2](https://github.com/clickpick/shared/compare/v0.1.1...v0.1.2) (2021-09-10)
 
 
