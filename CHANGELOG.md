@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.2](https://github.com/clickpick/shared/compare/v0.1.1...v0.1.2) (2021-09-10)
+
+
+### Features
+
+* classNames ([8f59ede](https://github.com/clickpick/shared/commit/8f59edec37b73ddceb1758f334b4314dbdc0adaa))
+
 ### [0.1.1](https://github.com/clickpick/shared/compare/v0.1.0...v0.1.1) (2021-09-10)
 
 
