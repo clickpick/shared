@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.5](https://github.com/clickpick/shared/compare/v0.1.4...v0.1.5) (2021-09-24)
+
+
+### Features
+
+* hasReactNode react util ([90c09f7](https://github.com/clickpick/shared/commit/90c09f78a7dfadcecf0b6b0a8b697df7f66bb2d7))
+* isPrimitiveReactNode react util ([6b651ae](https://github.com/clickpick/shared/commit/6b651aea4161424742d76d79b42b226a95da93b0))
+
 ### [0.1.4](https://github.com/clickpick/shared/compare/v0.1.3...v0.1.4) (2021-09-23)
 
 
