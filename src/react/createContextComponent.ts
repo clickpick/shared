@@ -1,5 +1,5 @@
 import type { PropsWithChildren, PropsWithoutRef } from 'react';
-import { createElement, useContext } from 'react';
+import { createContext, createElement, useContext } from 'react';
 
 type ContextRecord = Record<string, unknown>;
 type ContextProps = PropsWithoutRef<ContextRecord>;
@@ -28,13 +28,13 @@ type ContextProps = PropsWithoutRef<ContextRecord>;
  *   const { value, setValue } = useComponentContext();
  */
 export const createContextComponent = function <P extends ContextProps, H = ContextRecord>(handlerCreator: (props: P) => H) {
-  const Context = React.createContext<H>(null as unknown as H);
+  const Context = createContext<H>(null as unknown as H);
 
   const Provider = (props: PropsWithChildren<P>) => {
     return createElement(Context.Provider, {
       value: handlerCreator(props),
     }, props.children);
-  }
+  };
 
   return {
     Provider: Provider,
