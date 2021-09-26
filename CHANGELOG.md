@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.6](https://github.com/clickpick/shared/compare/v0.1.5...v0.1.6) (2021-09-26)
+
+
+### Bug Fixes
+
+* createContextComponet: lint ([f113db1](https://github.com/clickpick/shared/commit/f113db1864943fb255728e3e95b4ccdde8691583))
+
 ### [0.1.5](https://github.com/clickpick/shared/compare/v0.1.4...v0.1.5) (2021-09-24)
 
 
