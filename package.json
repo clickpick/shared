@@ -5,7 +5,8 @@
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
-    "prebuild": "shx rm -rf lib",
+    "lint": "eslint ./src --ext .ts,.tsx",
+    "prebuild": "shx rm -rf lib && yarn lint",
     "build": "tsc"
   },
   "repository": {
@@ -31,6 +32,11 @@
   "devDependencies": {
     "@types/node": "^16.9.6",
     "@types/react": "^17.0.20",
+    "@typescript-eslint/eslint-plugin": "^4.31.2",
+    "@vkontakte/eslint-config": "^3.0.0",
+    "eslint": "^7.32.0",
+    "eslint-plugin-react": "^7.26.0",
+    "eslint-plugin-react-hooks": "^4.2.0",
     "shx": "0.3.3",
     "typescript": "4.4.2"
   },
