@@ -5,7 +5,9 @@
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
-    "lint": "eslint ./src --ext .ts,.tsx",
+    "editorconfig": "editorconfig-checker",
+    "eslint": "eslint ./src --ext .ts,.tsx",
+    "lint": "yarn editorconfig && yarn eslint",
     "prebuild": "shx rm -rf lib && yarn lint",
     "build": "tsc"
   },
@@ -34,6 +36,7 @@
     "@types/react": "^17.0.20",
     "@typescript-eslint/eslint-plugin": "^4.31.2",
     "@vkontakte/eslint-config": "^3.0.0",
+    "editorconfig-checker": "^4.0.2",
     "eslint": "^7.32.0",
     "eslint-plugin-react": "^7.26.0",
     "eslint-plugin-react-hooks": "^4.2.0",
