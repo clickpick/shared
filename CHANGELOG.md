@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.8](https://github.com/clickpick/shared/compare/v0.1.7...v0.1.8) (2021-10-04)
+
+
+### Features
+
+* **dom:** animatedScrollToX & animatedScrollToY ([16f32e3](https://github.com/clickpick/shared/commit/16f32e316762299a78858ad26e7f05a66da47466))
+
 ### [0.1.7](https://github.com/clickpick/shared/compare/v0.1.6...v0.1.7) (2021-10-04)
 
 

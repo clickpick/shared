@@ -1,6 +1,6 @@
 {
   "name": "@clickpick/shared",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "description": "Shared js libs",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
