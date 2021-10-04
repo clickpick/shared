@@ -6,6 +6,8 @@
   },
   "rules": {
     "no-inline-comments": 0,
+    "no-magic-numbers": 0,
+    "@typescript-eslint/no-magic-numbers": 0,
     "spaced-comment": 0,
     "@typescript-eslint/no-explicit-any": 0,
     "curly": 0,
