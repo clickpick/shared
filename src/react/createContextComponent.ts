@@ -1,8 +1,8 @@
+import type { AnyObject } from '../types';
 import type { PropsWithChildren, PropsWithoutRef } from 'react';
 import { createContext, createElement, useContext } from 'react';
 
-type ContextRecord = Record<string, unknown>;
-type ContextProps = PropsWithoutRef<ContextRecord>;
+type ContextProps = PropsWithoutRef<AnyObject>;
 
 /**
  * Функция для создания компонента-контекста
@@ -27,7 +27,7 @@ type ContextProps = PropsWithoutRef<ContextRecord>;
  *   --or--
  *   const { value, setValue } = useComponentContext();
  */
-export const createContextComponent = function <P extends ContextProps, H = ContextRecord>(handlerCreator: (props: P) => H) {
+export const createContextComponent = function <P extends ContextProps, H = AnyObject>(handlerCreator: (props: P) => H) {
   const Context = createContext<H>(null as unknown as H);
 
   const Provider = (props: PropsWithChildren<P>) => {
