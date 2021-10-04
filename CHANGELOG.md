@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.7](https://github.com/clickpick/shared/compare/v0.1.6...v0.1.7) (2021-10-04)
+
+
+### Features
+
+* **types:** AnyObject utility type ([2e1c067](https://github.com/clickpick/shared/commit/2e1c0679015484d5c4f14bd0113199b44984800a))
+* **types:** prototype Storage utility type ([92b3cae](https://github.com/clickpick/shared/commit/92b3cae50d6e4c265dbc7bd8ef93e529ccc9b4bb))
+
 ### [0.1.6](https://github.com/clickpick/shared/compare/v0.1.5...v0.1.6) (2021-09-26)
 
 
