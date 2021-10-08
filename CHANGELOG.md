@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.9](https://github.com/clickpick/shared/compare/v0.1.8...v0.1.9) (2021-10-08)
+
+
+### Features
+
+* **react/components:** KeepAlive ([4d138ec](https://github.com/clickpick/shared/commit/4d138ec0eaeda74a1aa39d070f95cceadd502d4b))
+
 ### [0.1.8](https://github.com/clickpick/shared/compare/v0.1.7...v0.1.8) (2021-10-04)
 
 
