@@ -1,17 +1,10 @@
 {
-  "extends": "@vkontakte/eslint-config/typescript/react",
+  "extends": "@clickpick",
   "parserOptions": {
     "project": "./tsconfig.json",
     "tsconfigRootDir": "."
   },
   "rules": {
-    "no-inline-comments": 0,
-    "no-magic-numbers": 0,
-    "@typescript-eslint/no-magic-numbers": 0,
-    "spaced-comment": 0,
-    "@typescript-eslint/no-explicit-any": 0,
-    "curly": 0,
-    "no-duplicate-imports": 0,
-    "react-hooks/rules-of-hooks": 0
+    "@typescript-eslint/no-magic-numbers": 0
   }
 }
