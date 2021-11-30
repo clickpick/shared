@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.2.0](https://github.com/clickpick/shared/compare/v0.1.10...v0.2.0) (2021-11-30)
+
+
+### ⚠ BREAKING CHANGES
+
+* add exports string & type-checkers utils
+
+### Bug Fixes
+
+* add exports string & type-checkers utils ([a15e7d6](https://github.com/clickpick/shared/commit/a15e7d69c4ff97d4e1145ca91eb2a57bef9eff2c))
+
 ### [0.1.10](https://github.com/clickpick/shared/compare/v0.1.9...v0.1.10) (2021-11-30)
 
 
