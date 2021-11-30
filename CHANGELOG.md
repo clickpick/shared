@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.10](https://github.com/clickpick/shared/compare/v0.1.9...v0.1.10) (2021-11-30)
+
+
+### Features
+
+* **string:** hasString ([1383c6f](https://github.com/clickpick/shared/commit/1383c6fc5dc2751361c5631379ff857d916e5eca))
+* **type-checkers:** isString ([9b80a17](https://github.com/clickpick/shared/commit/9b80a17abee618d84c92b76c88cbcfe7120606b4))
+
 ### [0.1.9](https://github.com/clickpick/shared/compare/v0.1.8...v0.1.9) (2021-10-08)
 
 
